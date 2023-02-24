@@ -67,6 +67,11 @@
   font-size: 14px;
   color: #999999;
 }
+/* .sumPriceList span:last-child{
+  font-weight: 400;
+  font-size: 44px;
+  color: black
+} */
 .sumPriceList span:last-child p:first-child::after{
  content:'ㅣ';
  font-weight: 100;
