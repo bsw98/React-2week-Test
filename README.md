@@ -5,7 +5,9 @@
 <p>npm run 하고 확인가능합니다</p>
 <h2>마크업</h2>
 <img src="./readmeImage/마크업.jpg">
-
+<h2>최종화면</h2>
 <img src="./readmeImage/완성.png">
+<h2>상품 수량 0 일 때 , disable 되는 블럭</h2>
 <img src="./readmeImage/버튼스타.png">
+<h2>반응형 </h2>
 <img src="./readmeImage/반응형.png">
