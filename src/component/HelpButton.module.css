@@ -1,0 +1,31 @@
+.helpButton{
+  border:  2px solid #DEE0E3;
+  display: flex;
+  flex-flow:column;
+  top:80px;
+  background-color: white;
+  left:0;
+  font-size: 14px;
+  position: absolute;
+  padding: 20px 40px;
+}
+.helpButton div{
+  display: flex;
+ 
+}
+.helpButton div p{
+  margin: 5px;
+  font-size:20px;
+  font-weight: 600;
+}
+.helpButton div p:nth-child(2){
+  color: #6b90dc;
+}
+
+.helpButton button{
+  top: -4px;
+  font-size: 24px;
+  left: 450px;
+  border:none;
+  position: absolute;
+}

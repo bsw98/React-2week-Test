@@ -1,0 +1,156 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+.itemList{
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif'; 
+  padding-left:0 ;
+  font-weight: 700;
+  font-size: 24px;
+  display:flex;
+  flex-flow:column;
+  justify-content: center;
+  align-items: center;
+  width: clamp(320px, 100vw, 800px);
+  list-style: none;
+}
+.itemList li{
+  font-size: 18px;
+  display:flex;
+  width:95%;
+  padding: 16px 0;
+}
+.itemList li:first-child{
+  align-items: center;
+  height: 183px;
+  overflow: hidden;
+}
+.itemList li:first-child img{
+  width:100%;
+  min-height: 183px;
+}
+.itemList li:nth-child(2){
+  padding:0;
+}
+.itemList li:nth-child(3),.itemList li:nth-child(4),.itemList li:nth-child(5){
+  border-bottom: 1px solid #DEE0E3;
+}
+.itemList li:nth-child(3),.itemList li:nth-child(6){
+  flex-flow: row;
+  justify-content: space-between;
+}
+.purchase{
+  transition: 400ms all;
+  cursor: pointer;
+  border:none;
+  background: #03C75A;
+  border-radius: 6px;
+  color: white;
+  height: 48px;
+  width:100%;
+}
+.purchase:hover{
+  background: #0AAE4F;
+}
+.purchase:disabled{
+  cursor:default;
+  background-color: #DEE0E3;
+  color:#999999;
+}
+.sumPriceList{
+  position: relative;
+}
+.sumPriceList span p{
+  display: flex;
+  align-items: center;
+}
+.sumPriceList span:last-child p:first-child{
+  font-weight: 400;
+  font-size: 14px;
+  color: #999999;
+}
+.sumPriceList span:last-child p:first-child::after{
+ content:'ㅣ';
+ font-weight: 100;
+}
+.sumPriceList span:last-child p:last-child{
+  color: #6B90DC;
+  font-weight: 700;
+font-size: 22px;
+ }
+.sumPriceList button{
+  display:flex;
+  align-items: center;
+
+  transform: translateY(150%);
+  height: 20px;
+  margin-left:4px;
+  border: 2px solid #DEE0E3;
+  cursor:pointer;
+  background-color: white;
+}
+.sumPriceList span{
+  display: flex;
+}
+.priceList span{
+  color: #6B90DC;
+  font-weight: 700;
+  font-size: 24px;
+}
+.priceList div span{
+  font-size: 20px;
+}
+.priceList div span:first-child{
+  
+  font-size: 16px;
+  color: #999999;
+  letter-spacing: -0.005em;
+  text-decoration-line: line-through;
+  margin-right:6px;
+}
+.priceList div span:last-child{
+  color: #333333;
+  font-weight: 400;
+  font-size: 22px;
+}
+.deliveryList{
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 14px;
+}
+.deliveryList section{
+ display: flex;  
+ font-weight: 700;
+}
+.deliveryList section p{
+  margin:4px;
+}
+.deliveryList section:first-child p:first-child::after{
+  content: "ㅣ";
+  color:#DEE0E3;
+}
+.deliveryList section p:last-child{
+  color: #6B90DC;
+}
+.deliveryList section:last-child p{
+  color: #999999;
+  font-weight: 400;
+font-size: 14px;
+}
+.buttonList button{
+  font-size: 22px;
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  border: #f1f2f4 solid 2px;
+  background: #F1F2F4
+}
+.buttonList p{
+  padding:0 18px;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  border-top:#f1f2f4 solid 2px;
+  border-bottom: #f1f2f4 solid 2px;
+}
