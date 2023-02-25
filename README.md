@@ -1,3 +1,5 @@
+<a href="https://velog.io/@qwqq6954/%EB%A6%AC%EC%95%A1%ED%8A%B82%EC%A3%BC%EC%B0%A8-%EA%B3%BC%EC%A0%9C-%EB%B6%80%EC%85%94%EB%B3%B4%EC%9E%90#">벨로그에서 더 자세한 내용보기</a>
+
 <h1>리액트 2주차 과제</h1>
 
 <p>제대로 확인 안하고, 깃 헙에 올린점 죄송합니다. </p>
